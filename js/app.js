@@ -1,7 +1,7 @@
 var inputBox = document.getElementById('inputBox');
 //var cypherString = 'qwertyuiopasdfghjklzxcvbnm';
-var inputString = 'abcdefghijklmnopqrstuvwxyz ';
-var cypherString = 'wumseyqpdhxrtcfijkzoalvbng ';
+var cypherString = 'abcdefghijklmnopqrstuvwxyz ';
+var inputString = 'czaxoprsyfkhlgtnuvmeibqwdj ';
 
 var oldValue, newValue;
 
@@ -15,7 +15,7 @@ var inputHandler = function(e){
 	if(letterToAdd){
 		inputBox.value += letterToAdd;
 	}
-	if(inputBox.value == 'open sesame'){
+	if(inputBox.value == 'upper court stole yemeni'){
 			setTimeout(()=>{alert("The answer is not the result, but how you got there instead");}, 100);
 	}
 };
